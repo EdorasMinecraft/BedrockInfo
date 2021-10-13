@@ -1,0 +1,9 @@
+name: BedrockInfo
+version: '${version}'
+main: com.github.kikisito.bedrockinfo.BedrockInfo
+api-version: 1.17
+depend: [ floodgate ]
+authors: [ Kikisito ]
+commands:
+  bedrockinfo:
+    permission: bedrockinfo.command
